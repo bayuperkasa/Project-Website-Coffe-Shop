@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Ngopi.In</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <!--<link rel="shortcut icon" type="image/jpg" href="asset/img/cofi.jpg">-->
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <!-- <img src="asset/img/coffe.jpg" alt="coffe" class="bg" width="100%" height="100%" /> -->
+<!-- Menu Desktop -->
+  <div class="slider">
+    <div class="load">
+     <!-- <div class="bg-1"></div>-->
+    
+    <div class="content">
+      <div class="principal">
+        <h1>COFFE SHOP</h1>
+        <p> Welcome<br>A lot Can Happen Over Coffe</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=#NavBar>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="NavBar">
+            <form id="navbar-search" class="navbar-form navbar-left" action="/action_page.php">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search..." name="search">
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class=""><a href="Ngopi.In.html">HOME</a></li>
+              <li><a href="#">EVENTS</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ACCOUNT <span class="caret"></span></a>
+                <ul id="account-dropdown" class="dropdown-menu">
+                  <li><a href="signup.html"><i class="glyphicon glyphicon-user"></i> Sign Up</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#myLogin"><i class="glyphicon glyphicon-log-in"></i> Login</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Login Modals -->
+      <div class="container-fluid">
+        <div id="myLogin" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Login (Modal) -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                <h1 class="text-center">Login</h1>
+              </div>
+              <div id="modalLogin" class="modal-body">
+              <!-- Form -->
+                <form action="login.php" method="post" role="form">
+                  <!-- Form Group -->
+                  <div class="form-group form-group-lg">
+                    <!-- <label for="email">Email Address</label> -->
+                    <input type="email" class="" id="id" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="password">Password</label> -->
+                    <input class="" type="password" class="" id="password" placeholder="Password">
+                  </div>
+                  <!-- Check Box -->
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="">Biarkan tetap masuk</label>
+                  </div>
+                  <a href="#">Lupa Password ?</a>
+                  <br>
+                  <input type="submit" value="Masuk" class="btn btn-default">
+                  <br>
+                  <a href="signup.html">Belum mempunyai akun ? Daftar sekarang!</a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-10">
+        <div class="row">
+          <center><h1 class="h1cafe"><b>CAFE</b></h1></center>
+          <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/coffeshop.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>CAFE</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/coffeshop.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>CAFE</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div>
+            </div>
+          </div>
+             <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/coffeshop.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>CAFE</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="container mx-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/events.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>EVENT</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/events.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>EVENT</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div>
+            </div>
+          </div>
+             <div class="col-md-4">
+            <div class="card">
+            <img src="asset/img/events.jpg" alt="coffeshop" width="100%"> 
+            <div class="container">
+              <h1><b>EVENT</b></h1>
+              <p>Lorem ipsum <br> <a href="click1.html" target="_blank"class="read-more-btn">Clik here1 </a></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+
+  </body>
+</html>

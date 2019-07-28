@@ -1,0 +1,436 @@
+body {
+	overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "badlyst";
+  src: url(../font/BadlyStamped.ttf);
+}
+@font-face {
+  font-family: "Shella Clean";
+  src: url(../font/shellaclean.ttf);
+}
+@font-face {
+  font-family: "streetlgt";
+  src: url(../font/streetlight.ttf);
+}
+
+body{
+  position: relative;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.bg{
+  
+}
+
+.wrap {
+	width: 1000px;
+	margin:auto;
+	margin-top: 100px;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.4s;
+	width: 300px;
+	font-size: 16px;
+	font-family:sans-serif;
+	float:left;
+	margin: 10px;
+}
+
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.container{
+	padding:2px 16px;	
+}
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #222222;
+  color: #9e9e9e;
+  padding: 1% 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  border:0;
+}
+
+.navbar-search{
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: #fff;
+    background-color: #222;
+}
+
+#account-dropdown a:hover{
+  color: #fff;
+  background-color: #222;
+}
+
+
+/* Showcase */
+
+#showcase{
+  opacity: 0.8;
+  padding: 1em;
+  color: #F0F30F;
+  /* padding-bottom: 500px; */
+}
+
+#showcase h1{
+  font-family: 'Shella Clean';
+  font-size: 100px;
+  /* padding-top: 250px; */
+}
+
+#showcase p{
+  font-size: 25px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+/* Carousel */
+
+#myCarousel img{
+  opacity: 0.6;
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  /* text-transform: uppercase; */
+  font-family: 'Shella Clean';
+  font-size: 150px;
+  color:#2C2C2A;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h4{
+  font-size: 25px;
+  color:#000;
+}
+
+/* SignUp Register Form */
+
+#NavBarSignUP .glyphiconHome{
+  font-size: 25px;
+}
+
+#NavBarSignUP .textHome{
+  visibility: hidden;
+}
+
+/*myRegisterForm*/
+#myRegisterForm{
+	padding: 0 200px 0 200px;
+	padding-bottom: 10px;
+}
+
+#myRegisterForm h1{
+	font-family: 'Shella Clean';
+	font-size: 60px;
+}
+
+#myRegisterForm p{
+	padding-bottom: 30px;
+}
+
+/*Sign Up Form*/
+
+.signupForm{
+	display: flex;
+}
+
+.signupForm input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.signupForm input[type="email"], input[type="password"], input[type="text"]{
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 15px;
+}
+
+.signupForm .glyphicon{
+	padding: 10px;
+    /*background: dodgerblue;*/
+    color: #000;
+    min-width: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fullName input{
+	padding: 10px;
+	margin-right: 10px;
+}
+
+/*Button Daftar*/
+#myRegisterForm input[type="submit"]{
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	border:none;
+}
+
+#myRegisterForm input[type="submit"]:hover{
+	background-color:#00e676;
+	color: #000;
+}
+
+
+/*Footer*/
+footer{
+	padding: 5px;
+	position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+footer span{
+	font-family: 'Shella Clean';
+}
+
+/*Modal Login*/
+.modal-content{
+	width: 350px;
+	height: 475px;
+	width: 60%;
+	position: absolute;
+	color: #000;
+	background:#fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+.modal-content h1{
+	font-family: 'Shella Clean';
+	font-size: 40px;
+	color: #795548\
+}
+
+.modal-body{
+	margin: 40px;
+}
+
+
+.modal-body a{
+	font-size: 14px;
+	color: #000;
+}
+
+.modal-body a:hover{
+	color: #795548;
+}
+
+#modalLogin .form-group input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#modalLogin input[type="email"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 15px;
+}
+
+#modalLogin input[type="submit"]{
+	margin: 10px 0 10px 0;
+	border:none;
+	outline: none;
+	width: 100%;
+	height: 40px;
+	background-color: #795548;
+	color: #fff;
+	font-size: 18px;
+}
+
+#modalLogin input[type="submit"]:hover{
+	cursor: pointer;
+	background: #00e676;
+	color: #000;
+}
+
+
+/* Mobile Version */
+@media(max-width: 770px){
+  /* Global */
+  #NavBarSignUP .glyphicon{
+    display: none;
+  }
+
+  #NavBarSignUP .textHome{
+    visibility: visible;
+  }
+  /* Carousel Mobile */
+  #myCarousel .carousel-caption h1{
+    font-size: 45px;
+    color: #fff;
+  }
+
+  #myCarousel .carousel-caption h4{
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-75%);
+  }
+
+  /* Login Modals Mobile */
+  .modal-content{
+    width: 80%;
+
+  }
+  #modalLogin a{
+    font-size: 12px;
+  }
+
+/* myRegisterForm Mobile */
+  #myRegisterForm{
+    padding: 30px;
+  }
+
+  #myRegisterForm h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #myRegisterForm p{
+    font-size: 12px;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  #myRegisterForm .glyphicon{
+    display: none;
+  }
+}
+
+
+.mx-10 {
+	/*margin:10px auto;*/
+	margin-top: 200px;
+}
+
+.mx-5 {
+	margin-top: 100px;
+}
+
+/*.bg-1 {
+	background:url("../img/cofi.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}*/
+.h1cafe{
+	font-family: 
+}
+
+.h1event{
+	font-family: 
+}
+.load{
+	animation: slide 3s;
+}
+
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	animation: slide 40s infinite;
+}
+
+.content{
+	color: #fff;
+	width:  100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.principal{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.principal h1{
+	font-size: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.principal p{
+	font-size: 20px;
+	text-align: center;
+}
+
+@keyframes slide{
+	0%{
+		background-image: url("../img/cofi.jpg");
+	}
+	20%{
+		background-image: url("../img/cofi.jpg");
+	}
+	20.01%{
+		background-image: url("../img/coffe6.jpg");
+	}
+	40%{
+		background-image: url("../img/coffe6.jpg");
+	}
+	40.01%{
+		background-image: url("../img/cofi3.jpg");
+	}
+	60%{
+		background-image: url("../img/cofi3.jpg");
+	}
+	60.01%{
+		background-image: url("../img/cofi4.jpg");
+	}
+	80%{
+		background-image: url("../img/cofi4.jpg");
+	}
+	80.01%{
+		background-image: url("../img/coffe9.jpg");
+	}
+	100%{
+		background-image: url("../img/coffe9.jpg");
+	}
+}
